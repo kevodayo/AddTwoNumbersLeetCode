@@ -7,6 +7,12 @@ public class Main {
     public static void main(String[] args) {
 
         AddLinkedLists addLLists = new AddLinkedLists();
+        LongestSubstring lSubstring = new LongestSubstring();
+
+        String b = "abaab";
+
+        int n = lSubstring.longestSubString(b);
+        System.out.println("This is n" + n);
 //        LinkedList<String> linkedList = new LinkedList<>();
 //        linkedList.add(new String("Kevine"));
 //        linkedList.add(new String("Oyanda"));
