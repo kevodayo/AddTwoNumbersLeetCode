@@ -13,6 +13,13 @@ public class Main {
 
         int n = lSubstring.longestSubString(b);
         System.out.println("This is n" + n);
+
+        FindMedian median = new FindMedian();
+        int nums1[] = {1,3}; int nums2[] = {2};
+        int combined[] = median.findMedianNumber(nums1, nums2);
+        for (int num : combined) {
+            System.out.print(num + " ");
+        }
 //        LinkedList<String> linkedList = new LinkedList<>();
 //        linkedList.add(new String("Kevine"));
 //        linkedList.add(new String("Oyanda"));
